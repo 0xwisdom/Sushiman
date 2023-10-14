@@ -41,6 +41,13 @@
 
   list-style: none;
 }
+.header__menu-mobile{
+  color: transparent;
+}
+.header__menu-mobile li{
+  color: transparent;
+  position:absolute;
+}
 
 .header__menu li {
   font-weight: 500;

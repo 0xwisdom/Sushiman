@@ -178,11 +178,36 @@ a {
   .header__menu-mobile {
     display: flex;
   }
+  .header__menu-mobile li{
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 20px;
+  cursor: pointer;
+  position:relative;
+}
 }
 
 @media screen and (max-width: 550px) {
   .header__logo {
     padding-left: 0;
+  }
+  .header__menu-mobile li{
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor: pointer;
+    position:relative;
+  }
+  .header__menu-mobile li img{
+      width: 21px;
+      height: 21px;
+      object-fit: contain;
   }
 }
 /* END: header media queries */

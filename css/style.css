@@ -190,6 +190,25 @@ a {
   cursor: pointer;
   position:relative;
 }
+  .options{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100vh;
+  z-index: 100;
+  position: fixed;
+  top:0;
+  right:-100%;
+  transition: all 0.2 ease-in-out;
+  padding-left: 150px;
+  padding-top: 130px;
+  background-color: #b1454a;
+}
+.open-menu, .closed-menu{display: block;}
+#check:checked~.options{
+  right: 0;
+}
 }
 
 @media screen and (max-width: 550px) {

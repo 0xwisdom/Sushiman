@@ -209,6 +209,11 @@ a {
 #check:checked~.options{
   right: 0;
 }
+  .header__menu-mobile li img{
+      width: 21px;
+      height: 21px;
+      object-fit: contain;
+  }
 }
 
 @media screen and (max-width: 550px) {

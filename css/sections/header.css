@@ -71,3 +71,25 @@
 
   position: relative;
 }
+.header__menu-mobile{
+  color: transparent;
+}
+.header__menu-mobile li{
+  color: transparent;
+  position:absolute;
+}
+.open-menu, .closed-menu{
+  position:absolute;
+  display: none;
+}
+.open-menu{
+  top:43px;
+  transform: translateY(-50%);
+}
+.closed-menu{
+  top: 30px;
+  right:20px;
+}
+#check{
+  display: none;
+}
